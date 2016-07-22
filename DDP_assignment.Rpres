@@ -1,0 +1,53 @@
+Polynomial univariate regression model application 
+========================================================
+author: Christophe36
+date: 06-07-16  
+transition: rotate
+
+
+====================================================================== 
+we introduce a shiny application, which  
+- loads data (airquality) ,
+with names, dimension below
+```{r, echo = FALSE, warnings = FALSE, message = FALSE}
+library(datasets)
+names(airquality)
+dim(airquality)
+```
+and the following  short view
+```{r, echo = F, message = F, warnings = F}
+head(airquality,5)
+```
+
+======================================================================  
+
+- performs and plots polynomial univariate regression  (PRM). 
+
+- presents  a summary of the best regression model in the second main panel.
+
+=======================================================================
+
+In the main panel : 
+- tab plot : displays a PRM model plot of a choosen set of parameters. 
+
+- tab summary : presents the best multivariate regression  model.   
+
+- in both of these panels model, Ozone is the response. 
+
+=======================================================================
+To realise a univariate PRM and plot : 
+- select the desired predictor .
+- raise if necessary the predictor to a desired selected power value.
+- visualize individual predictors effects on the response in the summarizing tab.
+- graphically check that by switching to the plot and/or modifiying the predictor power.
+
+Thank you !
+
+
+
+
+
+
+
+
+
