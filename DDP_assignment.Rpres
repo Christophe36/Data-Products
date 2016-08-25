@@ -4,7 +4,7 @@ author: Christophe36
 date: 06-07-16  
 transition: rotate
 
-
+Introduction
 ====================================================================== 
 we introduce a shiny application, which  
 - loads data (airquality) ,
@@ -18,13 +18,14 @@ and the following  short view
 ```{r, echo = F, message = F, warnings = F}
 head(airquality,5)
 ```
-
+What for ?
 ======================================================================  
 
 - performs and plots polynomial univariate regression  (PRM). 
 
 - presents  a summary of the best regression model in the second main panel.
 
+Different Panels
 =======================================================================
 
 In the main panel : 
@@ -34,6 +35,7 @@ In the main panel :
 
 - in both of these panels model, Ozone is the response. 
 
+How to use this app ?
 =======================================================================
 To realise a univariate PRM and plot : 
 - select the desired predictor .
